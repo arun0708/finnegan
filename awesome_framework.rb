@@ -15,3 +15,6 @@ end
 
 def awesome_framework
   end
+
+def awesome_framework_2
+  end
