@@ -18,3 +18,11 @@ def awesome_framework
 
 def awesome_framework_2
   end
+def support_awesome_feature
+ end
+
+#def prevent_failures
+# end
+
+#def call_it_a_day
+# end
