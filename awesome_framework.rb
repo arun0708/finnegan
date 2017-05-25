@@ -20,13 +20,11 @@ class AwesomeFramework
   def stand_on_two_legs
   end
 
-  def support_awesome_feature
+def support_awesome_feature
+ end
+
+def prevent_failures
   end
 
-  def never_fail
+def call_it_a_day
   end
-
-  def call_it_a_day
-  end
-end
-
