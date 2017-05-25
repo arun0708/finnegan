@@ -1,20 +1,32 @@
-def solve_hill_climb_problem
-	hill_climb = HillClimb.new
-	hill_climb.climb
-end
-def use_genetix_algorithm(problem)
-	darwin = Darwin.new(problem)
-  darwin.survive
-end
-
-def prolog_solver(description, question)
-  prolog = Prolog.new
-  prolog.describe_world(description)
-  prolog.ask(question)
-end
-
-def awesome_framework
+class AwesomeFramework
+  def initialize(config)
+    stand_on_one_leg
+    stand_on_two_legs
+    be_awesome
   end
 
-def awesome_framework_2
+  def be_awesome
+    support_awesome_feature
+    never_fail
+    call_it_a_day
   end
+
+  def be_awesomer_than_ever
+  end
+
+  def stand_on_one_leg
+  end
+
+  def stand_on_two_legs
+  end
+
+  def support_awesome_feature
+  end
+
+  def never_fail
+  end
+
+  def call_it_a_day
+  end
+end
+
